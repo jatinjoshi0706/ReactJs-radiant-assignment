@@ -1,0 +1,56 @@
+.footer-container {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212731;
+  @media (max-width: 730px) {
+    width: 770px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px 50px 200px;
+    @media (max-width: 730px) {
+      padding: 30px 50px;
+    }
+
+    .categories,
+    .contact,
+    .country {
+      color: #fff;
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #b6bdc4;
+      text-decoration: none;
+    }
+
+    select {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: transparent;
+      color: #b6bdc4;
+      cursor: pointer;
+    }
+  }
+}
